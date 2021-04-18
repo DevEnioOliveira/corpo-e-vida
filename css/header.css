@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Montserrat Alternates';
+    src: url('/fonts/MontserratAlternates-Light.ttf');
+}
+
+.images img{
+    opacity: 0.8;
+}
+
+.menu{
+    background: linear-gradient(to right, #000000, #434343,rgb(0, 0, 0)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.menu .menu-container{
+    flex-grow: 10;
+    flex-direction: row;
+}
+
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu li {
+    font-size: 26px; 
+    font-weight: 200;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;  
+    text-shadow: grey 2px 2px 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.menu a:nth-child(1){
+    padding-left: 6px;
+}
+
+.menu a:hover{
+   border-bottom: red solid 2px;
+}
+
+.header-img{
+    height: 120px;
+    border-radius: 60%;
+    position: absolute;
+    left: 900px;
+}
+
+
+
+
+

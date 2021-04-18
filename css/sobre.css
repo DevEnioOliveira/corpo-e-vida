@@ -1,0 +1,24 @@
+#sobre{
+    background-color: lightgrey;
+}
+
+.sobre{
+    padding: 80px 80px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 10;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sobre p{
+    line-break: strict;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+.sobre img{
+    height: 300px;
+    padding-right: 30px;
+}
+

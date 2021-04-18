@@ -1,0 +1,83 @@
+.titulo-planos{
+    background: linear-gradient(to right, #000000, #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.titulo-planos h3{
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px 0;
+}
+
+.bg-planos{
+    background-color: rgb(180, 180, 180);
+    padding: 20px;
+}
+
+.planos-cards{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 5;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-item{
+    margin-top: 40px;
+    height: 600px;
+    width: 400px;
+    border: solid 2px black;
+    box-shadow: rgb(75, 74, 74) 3px 3px 3px 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.card-item img{
+    height: 600px;
+    width: 400px;
+    opacity: 0.5;
+}
+
+.card-description {
+    position: absolute;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-description .button{
+    height: 40px;
+    width: 200px;
+    border: solid 2px black;
+    border-radius: 20px;
+    box-shadow: rgb(36, 35, 35) 2px 2px 2px 1px;
+    background-color: rgb(184, 45, 45);
+    cursor: pointer;
+    position: absolute;
+    top: 500px;
+    left: -50px;
+}
+
+.card-description .button:nth-child(2){
+    left: -40px;
+}
+
+.card-description  a {
+    text-align: center;
+    padding-top: 4px;
+    font-size: 18px;
+    text-shadow: #303030 1px 1px 1px;
+    text-decoration: none;
+    color: black;
+}
+
+.card-description h4,p{
+    align-items: flex-start;
+}
+
