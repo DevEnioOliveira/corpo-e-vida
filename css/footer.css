@@ -54,9 +54,12 @@ footer h6{
     color: white;
     font-size: 16px;
     font-style: italic;
+    
+
 }
 
 .menu-footer a:hover{
     transition: 2s;
     color: red;
+    border-bottom: 1px solid red;
 }
