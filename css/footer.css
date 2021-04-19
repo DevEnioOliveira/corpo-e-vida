@@ -1,5 +1,62 @@
 footer{
-    height: 180px;
+    height: 100%;
     width: 100%;
-    background-color: black;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(93, 93, 94) 49%, rgba(3,4,4,1) 100%);
+    position: static;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+footer h6{
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
+
+.logo-footer img{
+    height: 160px;
+    border-radius: 60%;
+}
+
+.siga{
+    color: white;
+}
+
+.siga a:nth-of-type(0){
+    padding-right: 10px;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.menu-footer{
+   
+}
+
+.menu-footer ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.menu-footer li {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.menu-footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.menu-footer a:hover{
+    transition: 2s;
+    color: red;
 }
