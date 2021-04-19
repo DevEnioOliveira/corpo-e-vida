@@ -3,10 +3,6 @@
     src: url('/fonts/MontserratAlternates-Light.ttf');
 }
 
-.images img{
-    opacity: 0.8;
-}
-
 .menu{
     background: linear-gradient(to right, #000000, #434343,rgb(0, 0, 0)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 90px;
@@ -28,7 +24,7 @@
 }
 
 .menu li {
-    font-size: 26px; 
+    font-size: 20px; 
     font-weight: 200;
 }
 
