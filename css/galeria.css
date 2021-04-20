@@ -45,3 +45,23 @@
 .lightbox-gallery .item {
     padding-bottom: 30px
 }
+
+
+.titulo-galeria{
+    background: linear-gradient(to right, #696969, #c9c7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.titulo-galeria h3{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px 0;
+    text-shadow:#000 3px 3px 3px;
+}
