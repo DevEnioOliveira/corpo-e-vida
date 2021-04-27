@@ -87,3 +87,61 @@ $(document).ready(function(){
     showFullHeight();
     
   });
+
+
+  // SEÇÃO HORARIOS 
+
+
+  //fitdance
+function fitdanceIn(e) {
+  e.style.backgroundColor = '	#DEB887'
+  
+  let fitdance = document.querySelector('#fitdance');
+  fitdance.style.height = '10px'
+  fitdance.innerHTML= 'Prof Paty Rodrígues';
+  fitdance.style.textShadow = '1px 1px 1px black'
+  
+}
+
+function fitdanceOut(e) {
+  e.style.backgroundColor = 'white'
+  let fitdance = document.querySelector('#fitdance');
+  fitdance.innerHTML= 'FITDANCE'
+}
+
+
+
+function fitdance2In(e) {
+  e.style.backgroundColor = '	#DEB887'
+  
+  let fitdance = document.querySelector('#fitdance2');
+  fitdance.style.height = '10px'
+  fitdance.innerHTML= 'Prof Paty Rodrígues';
+  fitdance.style.textShadow = '1px 1px 1px black'
+  
+}
+
+function fitdance2Out(e) {
+  e.style.backgroundColor = 'white'
+  let fitdance = document.querySelector('#fitdance2');
+  fitdance.innerHTML= 'FITDANCE'
+}
+
+
+//funcional
+
+function funcionalIn(e) {
+  e.style.backgroundColor = '	#aE2887'
+  
+  let fitdance = document.querySelector('#funcional');
+  fitdance.style.height = '10px'
+  fitdance.innerHTML= 'Prof Fábio';
+  fitdance.style.textShadow = '1px 1px 1px black'
+  
+}
+
+function funcionalOut(e) {
+  e.style.backgroundColor = 'white'
+  let fitdance = document.querySelector('#funcional');
+  fitdance.innerHTML= 'FITDANCE'
+}
