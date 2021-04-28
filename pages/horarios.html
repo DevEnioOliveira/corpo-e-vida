@@ -59,18 +59,27 @@
                 <div class="container">
                     <div class="tabela-container">
                         <table id="tabela-horarios">
-                            <thead>
+                            <thead style="background-color: rgb(165, 165, 165);">
                                 <tr>
                                     <th>Horários</th>
                                 </tr>
                                 <tr>
-                                    <th>08:00</th>
+                                    <th>07:00</th>
                                 </tr>
                                 <tr>
-                                    <th>09:00</th>
+                                    <th>07:30</th>
                                 </tr>
                                 <tr>
-                                    <th>14:00</th>
+                                    <th>08:30</th>
+                                </tr>
+                                <tr>
+                                    <th>16:00</th>
+                                </tr>
+                                <tr>
+                                    <th>16:30</th>
+                                </tr>
+                                <tr>
+                                    <th>17:00</th>
                                 </tr>
                                 <tr>
                                     <th>18:00</th>
@@ -79,16 +88,16 @@
                                     <th>19:00</th>
                                 </tr>
                                 <tr>
-                                    <th>20:00</th>
+                                    <th>19:30</th>
                                 </tr>
                                 <tr>
-                                    <th>21:00</th>
+                                    <th>20:00</th>
                                 </tr>
                             </thead>
                         </table>
                         <table>
                             <thead>
-                                <tr>
+                                <tr style="background-color: rgb(173, 168, 168);">
                                     <th>Segunda-Feira</th>
                                     <th>Terça-Feira</th>
                                     <th>Quarta-Feira</th>
@@ -98,53 +107,74 @@
                             </thead>
                             <tbody >
                                 <tr>
-                                    <td onmouseover="fitdanceIn(this)" onmouseout="fitdanceOut(this)" id="fitdance">FITDANCE</td>
-                                    <td>exemplo1</td>
-                                    <td>exemplo1</td>
-                                    <td>exemplo1</td>
-                                    <td>exemplo1</td>
+                                    <td></td>
+                                    <td class="fitdance30" onmouseover="fitdance30()"> FIT DANCE 30</td>
+                                    <td></td>
+                                    <td class="fitdance30" onmouseover="fitdance30()">FIT DANCE 30</td>
+                                    <td></td>
                                 </tr>
                                 <tr>
                                     <td></td>
-                                    <td>exemplo1</td>
-                                    <td>exemplo1</td>
-                                    <td>exemplo1</td>
-                                    <td>exemplo1</td>
+                                    <td>ABDOMINAL 30</td>
+                                    <td></td>
+                                    <td>ABDOMINAL 30</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class="funcional" onmouseover="funcional()">FUNCIONAL</td>
+                                    <td></td>
+                                    <td class="rpm" onmouseover="rpm()">RPM</td>
+                                    <td></td>
+                                    <td class="funcional" onmouseover="funcional()">FUNCIONAL</td>
                                 </tr>
                                 <tr>
                                     <td></td>
-                                    <td>exemplo1</td>
-                                    <td>exemplo1</td>
-                                    <td>exemplo1</td>
-                                    <td>exemplo1</td>
+                                    <td class="funcionalKids" onmouseover="funcionalKids()">FUNCIONAL KIDS</td>
+                                    <td></td>
+                                    <td class="funcionalKids" onmouseover="funcionalKids()">FUNCIONAL KIDS</td>
+                                    <td></td>
                                 </tr>
                                 <tr>
-                                    <td onmouseover="fitdance2In(this)" onmouseout="fitdance2Out(this)" id="fitdance2">FITDANCE</td>
-                                    <td>exemplo1</td>
-                                    <td>exemplo1</td>
-                                    <td>exemplo1</td>
-                                    <td>exemplo1</td>
+                                    <td>CARDIO 30</td>
+                                    <td></td>
+                                    <td>MELHOR IDADE</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>ABDOMINAL 30</td>
+                                    <td>LOCALIZADA</td>
+                                    <td></td>
+                                    <td>LOCALIZADA</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class="fitdance" onmouseover="fitdance()">FIT DANCE</td>
+                                    <td class="rpm" onmouseover="rpm()">RPM</td>
+                                    <td class="jump" onmouseover="jump()">JUMP</td>
+                                    <td class="rpm" onmouseover="rpm()">RPM</td>
+                                    <td class="fitdance" onmouseover="fitdance()">FIT DANCE</td>
+                                </tr>
+                                <tr>
+                                    <td class="jump" onmouseover="jump()">JUMP</td>
+                                    <td class="gap" onmouseover="gap()">GAP</td>
+                                    <td>CARDIO 30</td>
+                                    <td class="gap" onmouseover="gap()">GAP</td>
+                                    <td class="jump" onmouseover="jump()">JUMP</td>
                                 </tr>
                                 <tr>
                                     <td></td>
-                                    <td>exemplo1</td>
-                                    <td>exemplo1</td>
-                                    <td>exemplo1</td>
-                                    <td>exemplo1</td>
-                                </tr>
-                                <tr>
-                                    <td onmouseover="funcionalIn(this)" onmouseout="funcionalOut(this)" id="funcional">FUNCIONAL</td>
-                                    <td>exemplo1</td>
-                                    <td>exemplo1</td>
-                                    <td>exemplo1</td>
-                                    <td>exemplo1</td>
-                                </tr>
-                                <tr>
                                     <td></td>
-                                    <td>exemplo1</td>
-                                    <td>exemplo1</td>
-                                    <td>exemplo1</td>
-                                    <td>exemplo1</td>
+                                    <td>ABDOMINAL 30</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class="funcional" onmouseover="funcional()">FUNCIONAL</td>
+                                    <td class="fitdance" onmouseover="fitdance()">FIT DANCE</td>
+                                    <td></td>
+                                    <td class="fitdance" onmouseover="fitdance()">FITDANCE</td>
+                                    <td class="funcional" onmouseover="funcional()">FUNCIONAL</td>
                                 </tr>
                             </tbody>
                         </table>
